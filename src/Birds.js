@@ -1,4 +1,4 @@
-function Birds ({Parrot}){
+function Birds ({parrot}){
     return (
     <div>
         {Parrot.map((element =>{
