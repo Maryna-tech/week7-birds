@@ -5,7 +5,7 @@ import Birds from "./Birds";
 function App(){
   const[bird, setBird] = useState(data);
   return(
-    <Birds Parrot= {bird}/>
+    <Birds parrot= {bird}/>
   )
 }
 
