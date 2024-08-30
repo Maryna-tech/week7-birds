@@ -1,7 +1,7 @@
 function Birds ({parrot}){
     return (
     <div>
-        {Parrot.map((element =>{
+        {parrot.map((element =>{
             const {id,image} = element;
             return<div key={id}>
                 <p>{id}</p>
